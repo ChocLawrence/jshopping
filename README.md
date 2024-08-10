@@ -87,6 +87,18 @@ STRIPE_KEY = 'YOUR_STRIPE_KEY'
 ```
 - Deploy application
 
+### STRIPE Payment Cards for testing
+
+VISA
+4242 4242 4242 4242
+4000 0566 5566 5556
+
+MASTER CARD.
+5555 5555 5555 4444
+2223 0031 2200 3222
+
+Source:: stripe test docs (https://stripe.com/docs/testing#cards)
+
 
 ### Screenshots
 
