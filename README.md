@@ -40,7 +40,10 @@ JShopping is an innovative e-commerce platform designed to offer a seamless shop
 ### Deployment Steps [LOCAL]
 
 - Download project
-- Install npm packages with ```text npm i```
+- Install npm packages with 
+```text 
+npm i
+```
 - Add a .env file to the root of project with details of database
 
 ```text
