@@ -127,6 +127,9 @@ Fetching products with GraphQL
 Installing the app to work as a Progressive Web App
 ![](images/screenshot7.png)
 
+Mobile side view
+![](images/screenshot8.png)
+
 
 ## **_URL to GitHub Repository_**
 
