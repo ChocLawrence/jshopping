@@ -42,8 +42,8 @@ function Nav() {
     <header>
       <div className="top-header">
         <span>Early Bird</span>
-        <span>Best Buy Outlet</span>
-        <span>Best Buy Business</span>
+        <span>JShop Outlet</span>
+        <span>JShop Business</span>
         <span>Shop with an expert</span>
       </div>
       <nav className="sticky-header">
