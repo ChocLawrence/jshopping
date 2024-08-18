@@ -41,8 +41,6 @@ function Nav() {
   return (
     <header>
       <div className="top-header">
-        <span>Early Bird</span>
-        <span>JShop Outlet</span>
         <span>JShop Business</span>
         <span>Shop with an expert</span>
       </div>

@@ -1,9 +1,10 @@
 :root {
   --primary: #232F3E;
   --secondary: #F3A847;
-  --theme:#0056b3;
+  --theme:#000080;
   --tertiary: #B12704;
   --light: #fafafa;
+  --biege:#F5F5DC;
   --gray:#979797; 
   --lightgray:#c7c6c6; 
   --green:#157812;
@@ -30,6 +31,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   color: var(--dark);
+  background: var(--biege);
 }
 
 h1,
@@ -254,7 +256,7 @@ body {
 }
 
 header {
-	background-color: #0056b3;
+	background-color: var(--theme);
 	color: #fff;
 	/* padding: 1rem; */
 	text-align: center;
@@ -332,7 +334,7 @@ nav {
   left: 0;
   width: 250px;
   height: 100vh;
-  background-color: #f9f9f9;
+  background-color: var(--biege);
   border-right: 1px solid #ddd;
   padding: 20px;
   flex-direction: column;
@@ -361,7 +363,7 @@ nav {
   padding: 0 !important;
   margin: 0 !important;
   text-align: left;
-  background-color: #f9f9f9;
+  background-color:  var(--biege);
   height: 100%;
   margin: 0;
   width: 100%;
@@ -402,13 +404,13 @@ nav {
 }
 
 .sidebar-menu span:hover {
-  color: #4a80ff;
+  color: var(--theme);
 }
 
 .top-header {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #033b77;
+  background-color: var(--theme);
   width: 100%;
   padding: 1rem;
 }
@@ -452,7 +454,7 @@ nav {
 }
 
 .title {
-  color: #0056b3;
+  color: var(--theme);
 }
 
 .top-content {
@@ -526,7 +528,7 @@ nav {
 		display: block;
 	}
 	.sidebar {
-		background-color: #0056b3;
+		background-color:var(--theme);
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -535,11 +537,11 @@ nav {
 		padding: 0;
 		display: none;
 	}
-	.sidebar.show {
+	.sidebar.show{
 		display: block;
 	}
 
-  .logo-title,.bottom-header,.search-bar {
+  .logo-title,.bottom-header,.search-bar,.right-content-row{
     display: none;
   }
 

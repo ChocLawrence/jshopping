@@ -13,12 +13,11 @@ function HomeContent({}) {
         </span>
       </div>
       <div className="sales-content">
-        <div className="left-content">
-           <img src="/images/sale.jpg" alt="image" />
-        </div>
         <div className="right-content">
           <div className="right-content-bottom">
              <CategoryMenu />
+             <br/>
+             <strong><h4>JShopping offers the best deals in general shopping as well as African handmade pieces.</h4></strong>
           </div>
           <div className="right-content-row">
             <div className="right-content-one">
@@ -28,6 +27,9 @@ function HomeContent({}) {
               <img src="/images/top-deals1.png" alt="image" />
             </div>
           </div>
+        </div>
+        <div className="left-content">
+           <img src="/images/sale.jpg" alt="image" />
         </div>
       </div>
     </div>
