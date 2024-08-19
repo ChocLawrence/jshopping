@@ -1543,6 +1543,10 @@ li:last-child label {
 }
 /*end search bar*/
 
+.order-history {
+  justify-content: unset;
+}
+
 @media (max-width: 768px) {
   .flex-container-product {
     flex-direction: column;
