@@ -67,9 +67,9 @@ const SearchField = () => {
     let products = filterProducts();
     let match = products.filter((el) => el.name == newValue);
     document.getElementById('searchTerm').value = newValue;
-
+    
     // Validate the input value
-    if (isValid && !isEmptyOrNull(match[0]._id)) {
+    if (!isEmptyOrNull(match[0]._id)) {
       setIsValid(true);
       window.location.href = `/products/${match[0]._id}`;
     } else {
