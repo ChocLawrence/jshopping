@@ -58,7 +58,7 @@ const SearchField = () => {
     return false;
   }
 
-  const [inputValue, setInputValue] = useState('Roasted Peanuts');
+  const [inputValue, setInputValue] = useState('');
   const [isValid, setIsValid] = useState(false);
 
   const handleInputChange = (event) => {
