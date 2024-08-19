@@ -1,19 +1,15 @@
 import React from "react";
 import ProductList from "../components/ProductList";
-import CategoryMenu from "../components/CategoryMenu";
 import HomeContent from "../components/HomeContent";
-import Cart from '../components/Cart';
-import Visit from '../components/Visit';
-import Footer from '../components/Footer';
+import Visit from "../components/Visit";
 
 const Home = () => {
   return (
     <div className="container">
       <HomeContent />
+      <h4><strong>Products:</strong></h4>
       <ProductList />
-      <Cart />
       <Visit />
-      <Footer/>
     </div>
   );
 };

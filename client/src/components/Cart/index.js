@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import CartItem from "../CartItem";
+import { Link } from "react-router-dom";
 // REMOVE THE AUTH FOR PROJECTS WHERE NO NEED TO BE LOGGED IN TO CHECKOUT THE CART
 import Auth from "../../utils/auth";
 import "./style.css";
@@ -99,7 +100,7 @@ const Cart = () => {
             {Auth.loggedIn() ? (
               <button onClick={submitCheckout}>Checkout</button>
             ) : (
-              <span>(log in to check out)</span>
+              <span><Link to="/login"><button>Login to Checkout</button></Link></span>
             )}
           </div>
         </div>

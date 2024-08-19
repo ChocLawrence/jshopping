@@ -8,13 +8,18 @@ import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions'
 
 import { idbPromise } from '../../utils/helpers';
 
-function CategoryMenu({}) {
+function CategoryMenu() {
 
   const [state, dispatch] = useStoreContext();
 
   const { categories } = state;
 
   const { loading, data: categoryData } = useQuery(QUERY_CATEGORIES);
+
+  const scrollToTitle = (id) => {
+    const title = document.getElementById(id);
+    title.scrollIntoView({ behavior: 'smooth',block:'center',inline:'nearest' });
+  };
 
   useEffect(() => {
     if (categoryData) {
@@ -44,12 +49,12 @@ function CategoryMenu({}) {
 
   return (
     <div>
-      <h4><strong>Top Category picks</strong></h4>
+      <h4 className='categoryMenuTitle' id="category-list"><strong>Top Category picks</strong></h4>
       {categories.map(item => (
         <button
           key={item._id}
           onClick={() => {
-            handleClick(item._id);
+            handleClick(item._id);scrollToTitle('product-list');
           }}
           className='category-button'
         >
