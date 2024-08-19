@@ -102,7 +102,7 @@ function Nav() {
               </span>
             </div>
             <div className="footnote">
-              <p>Browse JShopping, an awesome exprience</p>
+              <p>Browse JShopping, an awesome experience</p>
               ---
             </div>
             <ul className="sidebar-menu">
