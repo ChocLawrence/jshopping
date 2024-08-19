@@ -58,7 +58,7 @@ const BackToSchool = () => {
                 active, keep connected, track your health, and stay safe.
               </h5>
               <br />
-              <Link to="/products/66b69eaad93047ce1f12dcc1">
+              <Link to="/products/66b6b2425989a5007a74f75f">
                 <button>Buy Now &#8594;</button>
               </Link>
             </div>
